@@ -26,15 +26,6 @@ export default function TabLayout() {
           ),
         }}
       />
-      <Tabs.Screen
-        name="profile"
-        options={{
-          title: 'Профиль',
-          tabBarIcon: ({ color, size }) => (
-            <Ionicons name="person" size={size} color={color} />  // Иконка для профиля
-          ),
-        }}
-      />
       </Tabs>
     </ProfileProvider>
   );
